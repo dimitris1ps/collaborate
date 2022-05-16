@@ -13,7 +13,7 @@ These are the steps you need to follow, to allow other to access your locally ho
 6) Create an account at [ngrok](https://dashboard.ngrok.com/signup)
 7) Then [download](https://dashboard.ngrok.com/get-started/setup) ngrok depending on you operating system
 8) Unzip the zip file
-9) Once extracted, run the executable (you might get a warning, please proceed)
+9) Once extracted, run the executable (you might get a warning, please proceed: show more -> run anyway)
 10) In the downlad page it will a code snippet you should run in the executable it will be something like `ngrok config add-authtoken 29EfheI8IknZXC9dTivgk6M4jVc_4zGtHaKadsvsdvfsvg2G`
 11) Close everything (the terminal, and the executable)
 

@@ -1,6 +1,6 @@
 # How to Collaborate
 
-These are the steps you need to follow, to allow other to access your locally hosted jupyter notebook (or jupyter lab)
+These are the steps you need to follow, to allow others to access your locally hosted jupyter notebook (or jupyter lab)
 
 ### Do these once:
 1) Open a terminal and run `jupyter notebook --generate-config`

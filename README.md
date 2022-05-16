@@ -15,11 +15,11 @@ These are the steps you need to follow, to allow others to access your locally h
 7) Create an account at [ngrok](https://dashboard.ngrok.com/signup)
 8) Then [download](https://dashboard.ngrok.com/get-started/setup) ngrok depending on you operating system
 9) Unzip the zip file
-10) Once extracted, run the executable (you might get a warning, please proceed: show more -> run anyway)
+10) Once extracted, run the executable (you might get a warning*, please proceed: show more -> run anyway)
 11) In the downlad page it will create a code snippet you should run in the executable it will be something like `ngrok config add-authtoken 29EfheI8IknZXC9dTivgk6M4jVc_4zGtHaKadsvsdvfsvg2G`
 12) Close everything (the terminal, and the executable)
 
-In case you are on Windows you might need to do the following for the ngrok executable to Bypass Microsoft Defender SmartScreen prevented an unrecognized app from starting
+\*In case you are on Windows you might need to do the following for the ngrok executable to Bypass Microsoft Defender SmartScreen prevented an unrecognized app from starting
 - Right-click on the file.
 - Select Properties.
 - Make sure you are in the General tab.

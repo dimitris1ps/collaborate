@@ -5,8 +5,8 @@ These are the steps you need to follow, to allow other to access your locally ho
 ### Do these once:
 1) Open a terminal and run `jupyter notebook --generate-config`
 2) This will print out in the terminal something like: `Writing default config to: C:\Users\username\.jupyter\jupyter_notebook_config.py`
-3) Copy the `C:\Users\username\.jupyter\jupyter_notebook_config.py` part
-4) Run the following command in the terminal: `echo "NotebookApp.allow_remote_access = True" >> C:\Users\username\.jupyter\jupyter_notebook_config.py` where `C:\Users\username\.jupyter\jupyter_notebook_config.py` is the path that was printed in the terminal.
+3) Locate and open with a text editor the file `C:\Users\username\.jupyter\jupyter_notebook_config.py`
+4) Within the file locate the comment: `c.NotebookApp.allow_remote_access = False` and change it to `c.NotebookApp.allow_remote_access = True` then save and close.
 5) run `jupyter notebook password` to create a password for jupyter (you will share this password with people you will collaborate!) I propose the team agrees to have a common password
 6) Run `pip install jupyter_contrib_nbextensions` to install jupyter extentions
 <br><br>

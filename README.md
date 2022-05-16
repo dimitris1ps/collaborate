@@ -7,7 +7,8 @@ These are the steps you need to follow, to allow other to access your locally ho
 2) This will print out in the terminal something like: `Writing default config to: C:\Users\username\.jupyter\jupyter_notebook_config.py`
 3) Copy the `C:\Users\username\.jupyter\jupyter_notebook_config.py` part
 4) Run the following command in the terminal: `echo "NotebookApp.allow_remote_access = True" >> C:\Users\username\.jupyter\jupyter_notebook_config.py` where `C:\Users\username\.jupyter\jupyter_notebook_config.py` is the path that was printed in the terminal.
-5) run `jupyter notebook password` to create a password for jupyter (you will share this password with people you will collaborate!)
+5) run `jupyter notebook password` to create a password for jupyter (you will share this password with people you will collaborate!) I propose the team agrees to have a common password
+<br><br>
 
 
 6) Create an account at [ngrok](https://dashboard.ngrok.com/signup)

@@ -19,6 +19,14 @@ These are the steps you need to follow, to allow other to access your locally ho
 11) In the downlad page it will create a code snippet you should run in the executable it will be something like `ngrok config add-authtoken 29EfheI8IknZXC9dTivgk6M4jVc_4zGtHaKadsvsdvfsvg2G`
 12) Close everything (the terminal, and the executable)
 
+In case you are on Windows you might need to do the following for the ngrok executable to Bypass Microsoft Defender SmartScreen prevented an unrecognized app from starting
+- Right-click on the file.
+- Select Properties.
+- Make sure you are in the General tab.
+- Press the Unblock button.
+- Click Apply/OK and exit.
+The file will be unblocked.
+
 ***
 
 ### Every time you want to collaborate

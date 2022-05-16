@@ -33,7 +33,7 @@ The file will be unblocked.
 
 1) Start your jupyter notebook or jupyter lab (notice which port jupyter is running on, its usually on port 8888,  localhost:8888 )
 2) Run the ngrok executable
-3) run `ngrok http 8888 --host-header="localhost:8888"` in the ngrok terminal
+3) run `ngrok http 8888` in the ngrok terminal
 4) It will print out something in the terminal, copy and share the url it prints (it will be something like `https://asfdasdga.eu.ngrok.io`
 
 Once you close the ngrok executable, the person or people you shared the url will no longer have access to your jupyter notebook. 
